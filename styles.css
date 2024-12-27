@@ -1,2 +1,25 @@
-
-/* Your CSS Code here. */
+tr th{
+	width:70px
+}
+tr th:first-child{
+	width:100px
+}
+tbody tr{
+	background:#e77f7f;
+	color:black;
+}
+tbody tr:nth-child(2){
+	background:#f76060;
+	color:white;
+}
+thead th{
+	text-align:left;
+	background:#eb4949;
+	color:white;
+}
+tbody tr td:first-child{
+	text-align:left
+}
+table th,td{
+	border:1px solid black;
+}
